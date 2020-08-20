@@ -1,6 +1,6 @@
 #!/bin/bash
 # v2ray centos系统一键安装脚本
-# Author: hijk<https://hijk.art>
+# 
 
 echo "#############################################################"
 echo "#         CentOS 7/8 v2ray 带伪装一键安装脚本                 #"
