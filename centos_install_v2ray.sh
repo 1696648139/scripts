@@ -1,6 +1,6 @@
 #!/bin/bash
 # v2ray centos系统一键安装教程
-# Author: hijk<https://hijk.art>
+# 
 
 echo "#############################################################"
 echo "#         CentOS 7/8 v2ray 一键安装脚本                      #"
