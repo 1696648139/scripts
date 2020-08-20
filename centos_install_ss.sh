@@ -1,6 +1,6 @@
 #!/bin/bash
 # shadowsocks/ss CentOS8一键安装脚本
-# Author: hijk<https://hijk.art>
+# 
 
 echo "#############################################################"
 echo "#         CentOS 7/8 Shadowsocks/SS 一键安装脚本             #"
