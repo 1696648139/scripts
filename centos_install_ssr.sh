@@ -269,7 +269,7 @@ function installSSR()
         tar -zxf ${FILENAME}.tar.gz
         mv shadowsocksr-3.2.2/shadowsocks /usr/local
         if [ ! -f /usr/local/shadowsocks/server.py ]; then
-            echo "安装失败，请到 https://hijk.art 网站反馈"
+            echo "安装失败"
             cd ${BASE} && rm -rf shadowsocksr-3.2.2 ${FILENAME}.tar.gz
             exit 1
         fi
