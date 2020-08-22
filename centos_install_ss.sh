@@ -181,7 +181,7 @@ function installSS()
         make && make install
         if [ $? -ne 0 ]; then
             echo
-            echo -e "[${red}错误${plain}] Shadowsocks-libev 安装失败！ 请打开 https://hijk.art 反馈"
+            echo -e "[${red}错误${plain}] Shadowsocks-libev 安装失败！"
             cd ${BASE} && rm -rf shadowsocks-libev-3.3.4*
             exit 1
         fi
