@@ -4,7 +4,7 @@
 
 echo "#############################################################"
 echo "#         CentOS 7/8 v2ray 带伪装一键安装脚本                 #"
-echo "# 咨询QQ：1696648139                                         #"
+echo "# 咨询QQ：169****139                                         #"
 echo "# 一般不加人，别问。                                          #"
 echo "#############################################################"
 echo ""
@@ -153,7 +153,7 @@ function installV2ray()
     bash <(curl -sL https://raw.githubusercontent.com/hijkpw/scripts/master/goV2.sh)
 
     if [ ! -f /etc/v2ray/config.json ]; then
-        echo "安装失败，请到 https://hijk.art 网站反馈"
+        echo "安装失败"
         exit 1
     fi
 
@@ -229,7 +229,7 @@ function installNginx()
     fi
     res=`which pip3`
     if [ "$?" != "0" ]; then
-        echo -e " pip3安装失败，请到 ${red}https://www.hijk.pw${plain} 反馈"
+        echo -e " pip3安装失败，请到 ${red}169****139${plain} 反馈"
         exit 1
     fi
     pip3 install certbot
@@ -239,7 +239,7 @@ function installNginx()
     fi
     certbot certonly --standalone --agree-tos --register-unsafely-without-email -d ${domain}
     if [ "$?" != "0" ]; then
-        echo -e " 获取证书失败，请到 ${red}https://www.hijk.pw${plain} 反馈"
+        echo -e " 获取证书失败，请到 ${red}169****139${plain} 反馈"
         exit 1
     fi
 
@@ -353,7 +353,7 @@ EOF
     sleep 3
     res=`netstat -nltp | grep ${port} | grep nginx`
     if [ "${res}" = "" ]; then
-        echo -e "nginx启动失败！ 请到 ${red}https://www.hijk.pw${plain} 反馈"
+        echo -e "nginx启动失败！ 请到 ${red}169****139${plain} 反馈"
         exit 1
     fi
 }
