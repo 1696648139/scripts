@@ -4,7 +4,7 @@
 
 echo "#############################################################"
 echo "#         CentOS 7/8 v2ray 一键安装脚本                      #"
-echo "# 咨询QQ ：1696648139                                        #"
+echo "# 咨询QQ ：169****139                                        #"
 echo "# 一般不加人，别问。                                          #"
 echo "#############################################################"
 echo ""
@@ -94,7 +94,7 @@ function installV2ray()
     bash <(curl -sL https://raw.githubusercontent.com/hijkpw/scripts/master/goV2.sh)
 
     if [ ! -f /etc/v2ray/config.json ]; then
-        echo "安装失败，请到 https://hijk.art 网站反馈"
+        echo "安装失败"
         exit 1
     fi
 
